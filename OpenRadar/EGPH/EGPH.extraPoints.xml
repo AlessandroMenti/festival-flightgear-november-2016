@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<routes>
+	<addPoint code="GOSAM" point="55.79,-4.201111111"/>
+	<addPoint code="PHS48" point="55.35944444,-3.196111111" />
+	<addPoint code="23" point="55.880618,-4.416882" />
+	<addPoint code="05" point="55.862872,-4.450531" />
+	<addPoint code="13" point="55.516693,-4.615647" />
+	<addPoint code="31" point="55.502385,-4.573775" />
+	<addPoint code="" point="" />
+	<addPoint code="" point="" />
+	<addPoint code="" point="" />
+	<addPoint code="" point="" />
+	<addPoint code="" point="" />
+	<addPoint code="" point="" />
+	<addPoint code="" point="" />
+</routes>

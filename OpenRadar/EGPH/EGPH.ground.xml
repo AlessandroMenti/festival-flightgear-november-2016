@@ -1,0 +1,826 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- The parking positions in here are off compared to the rendered ground area.
+The positions have been taken from the groundnet available from global scenery
+So they should line up with spawn points -->
+<routes>
+	<route name="London Terminal Control" stroke="dashed,1" displayMode="always" zoomMin="0" zoomMax="300" color="100,0,0">
+<!-- South East Departures sector-->
+        <multiPointLine close="False">
+            <point>51.4772222222222,-0.461388888888889</point>
+            <point>51.4541666666667,0.55</point>
+            <point>51.4488888888889,0.922222222222222</point>
+            <point>51.4375,1.12222222222222</point>
+            <point>51.3036111111111,0.821388888888889</point>
+            <point>51.1336111111111,0.768888888888889</point>
+            <point>51.0158333333333,0.732777777777778</point>
+            <point>50.7658333333333,0.418333333333333</point>
+            <point>51.0811111111111,-0.0811111111111111</point>
+            <point>51.2863888888889,-0.416944444444444</point>
+            <point>51.4772222222222,-0.461388888888889</point>
+        </multiPointLine>
+<!-- Redfa sector-->
+        <multiPointLine close="False">
+            <point>51.45,0.832777777777778</point>
+            <point>51.5713888888889,0.833333333333333</point>
+            <point>51.605,0.925555555555555</point>
+            <point>51.7419444444444,0.843888888888889</point>
+            <point>51.7552777777778,0.841388888888889</point>
+            <point>51.9066666666667,0.811388888888889</point>
+            <point>52.0125,0.79</point>
+            <point>51.9683333333333,0.966666666666667</point>
+            <point>52.2058333333333,0.805277777777778</point>
+            <point>52.4263888888889,1.09944444444444</point>
+            <point>52.4194444444444,1.47111111111111</point>
+            <point>52.3886111111111,2.71027777777778</point>
+            <point>51.9505555555556,2.35527777777778</point>
+            <point>51.9538888888889,2.5</point>
+            <point>51.6369444444444,2.5</point>
+            <point>51.4555555555556,2.5</point>
+            <point>51.5,2</point>
+            <point>51.5,2</point>
+            <point>51.3833333333333,2</point>
+            <point>51.4083333333333,1.61194444444444</point>
+            <point>51.4375,1.12222222222222</point>
+            <point>51.4488888888889,0.924444444444444</point>
+            <point>51.45,0.832777777777778</point>
+        </multiPointLine>
+<!-- South West sector-->
+        <multiPointLine close="False">
+            <point>51.4772222222222,-0.461388888888889</point>
+            <point>51.2863888888889,-0.416944444444444</point>
+            <point>50.7658333333333,0.418333333333333</point>
+            <point>50.74,0.386111111111111</point>
+            <point>50.7602777777778,0.123611111111111</point>
+            <point>50.5469444444444,-0.585</point>
+            <point>50.7738888888889,-0.828333333333333</point>
+            <point>50.8094444444444,-0.851111111111111</point>
+            <point>50.8197222222222,-1.26333333333333</point>
+            <point>50.8244444444444,-1.29305555555556</point>
+            <point>50.8286111111111,-1.57638888888889</point>
+            <point>50.9825,-1.46833333333333</point>
+            <point>51.2705555555556,-1.34805555555556</point>
+            <point>51.5922222222222,-1.35055555555556</point>
+            <point>51.4772222222222,-0.461388888888889</point>
+            <point>51.4541666666667,0.550277777777778</point>
+        </multiPointLine>
+<!-- North West sector-->
+		<multiPointLine close="False">
+			<point>52.4422222222222,-0.617222222222222</point>******
+			<point>52.4391666666667,0.0297222222222222</point>
+			<point>52.3561111111111,0.0297222222222222</point>
+			<point>52.1905555555556,-0.372222222222222</point>*****
+			<point>51.8397222222222,-0.0358333333333333</point>
+			<point>51.8069444444444,-0.183333333333333</point>
+			<point>51.6230555555556,-0.518333333333333</point>
+			<point>51.4772222222222,-0.461388888888889</point>
+			<point>51.4772222222222,-0.461388888888889</point>
+			<point>51.5725,-1.19166666666667</point>
+			<point>51.5725,-1.19166666666667</point>
+			<point>51.6002777777778,-1.41472222222222</point>
+			<point>51.6525,-1.44138888888889</point>
+			<point>51.6805555555556,-1.57277777777778</point>
+			<point>52.1547222222222,-2.07472222222222</point>
+			<point>52.2780555555556,-2.20777777777778</point>
+			<point>52.5480555555556,-1.50472222222222</point>
+			<point>52.7616666666667,-0.932222222222222</point>
+			<point>52.4422222222222,-0.617222222222222</point>
+		</multiPointLine>
+<!-- North East sector-->
+        <multiPointLine close="False">
+            <point>51.605,0.925555555555555</point>
+            <point>51.7419444444444,0.843888888888889</point>
+            <point>51.7552777777778,0.841388888888889</point>
+            <point>51.9066666666667,0.811388888888889</point>
+            <point>52.0125,0.79</point>
+            <point>51.9683333333333,0.966666666666667</point>
+            <point>52.2058333333333,0.805277777777778</point>
+            <point>52.4263888888889,1.09944444444444</point>
+            <point>52.4391666666667,0.0297222222222222</point>
+        </multiPointLine>
+    </route>
+        <route name="Scottish Terminal Control" stroke="dashed,1" displayMode="always" zoomMin="0" zoomMax="300" color="100,0,0">
+<!-- STAFA Sector-->
+        <multiPointLine close="False">
+            <point>53.3569444444444,-2.26222222222222</point>
+            <point>53.4305555555556,-1.7575</point>
+            <point>53.455,-1.77055555555556</point>
+            <point>53.4677777777778,-1.64833333333333</point>
+            <point>53.4908333333333,-1.41694444444444</point>
+            <point>53.3380555555556,-1.32555555555556</point>
+            <point>53.3525,-1.48333333333333</point>
+            <point>53.3338888888889,-1.51138888888889</point>
+            <point>52.7616666666667,-0.932222222222222</point>
+            <point>52.5488888888889,-1.50638888888889</point>
+            <point>52.2780555555556,-2.20777777777778</point>
+            <point>52.5480555555556,-2.50305555555556</point>
+            <point>52.8530555555556,-2.76416666666667</point>
+            <point>53.0005555555556,-2.74972222222222</point>
+            <point>53.3569444444444,-2.26222222222222</point>
+        </multiPointLine>
+<!-- Wallasey Sector -->
+        <multiPointLine close="False">
+            <point>53.2705555555556,-5.45</point>
+            <point>52.9266666666667,-4.24472222222222</point>
+            <point>52.8916666666667,-2.83861111111111</point>
+            <point>52.8508333333333,-2.76361111111111</point>
+            <point>52.9997222222222,-2.74944444444444</point>
+            <point>53.3569444444444,-2.26222222222222</point>
+            <point>53.6511111111111,-2.66111111111111</point>
+            <point>53.655,-2.65</point>
+            <point>54.2491666666667,-3.07777777777778</point>
+            <point>54.2494444444444,-3.55027777777778</point>
+            <point>54.5,-3.55916666666667</point>
+            <point>53.7563888888889,-5.27916666666667</point>
+            <point>53.7619444444444,-5.5</point>
+            <point>53.25,-5.5</point>
+        </multiPointLine>
+<!-- East Sector -->
+        <multiPointLine close="False">
+            <point>54.0297222222222,-1.5875</point>
+            <point>54.0322222222222,-0.660833333333333</point>
+            <point>54.4455555555556,-1.15138888888889</point>
+            <point>54.5408333333333,-0.916111111111111</point>
+            <point>54.0313888888889,-0.316666666666667</point>
+            <point>54.0291666666667,0.100555555555556</point>
+            <point>53.5941666666667,0.465555555555556</point>
+            <point>53.5416666666667,0.845833333333333</point>
+            <point>53.4822222222222,0.952222222222222</point>
+            <point>53.4822222222222,0.952222222222222</point>
+            <point>52.89,0.771944444444445</point>
+            <point>53.0738888888889,-0.739444444444444</point>
+            <point>52.9805555555556,-1.15166666666667</point>
+            <point>53.3338888888889,-1.51138888888889</point>
+            <point>53.4677777777778,-1.64833333333333</point>
+            <point>53.455,-1.77055555555556</point>
+            <point>53.4305555555556,-1.7575</point>
+            <point>53.3569444444444,-2.26222222222222</point>
+            <point>53.6511111111111,-2.66111111111111</point>
+            <point>53.655,-2.65</point>
+            <point>54.2491666666667,-3.07777777777778</point>
+            <point>54.25,-2.31083333333333</point>
+            <point>54.2002777777778,-2.28333333333333</point>
+            <point>54.2583333333333,-2.14777777777778</point>
+            <point>55,-1.9175</point>
+            <point>55,-1.50361111111111</point>
+            <point>54.1961111111111,-1.75861111111111</point>
+            <point>54.0297222222222,-1.5875</point>
+        </multiPointLine>
+<!-- Talla sector -->
+        <multiPointLine close="False">
+            <point>55.8930555555556,-2.82527777777778</point>
+            <point>55.6347222222222,-2.85305555555556</point>
+            <point>55.6347222222222,-2.85305555555556</point>
+            <point>55.435,-2.61527777777778</point>
+            <point>55.435,-2.61527777777778</point>
+            <point>55.2113888888889,-2.51444444444444</point>
+            <point>55.2113888888889,-2.51444444444444</point>
+            <point>54.25,-2.16694444444444</point>
+            <point>54.25,-2.16694444444444</point>
+            <point>54.25,-2.55722222222222</point>
+            <point>54.25,-2.55722222222222</point>
+            <point>54.25,-3.55138888888889</point>
+            <point>54.25,-3.55138888888889</point>
+            <point>54.5,-3.55916666666667</point>
+            <point>54.5,-3.55916666666667</point>
+            <point>54.545,-3.50027777777778</point>
+            <point>54.545,-3.50027777777778</point>
+            <point>55.1008333333333,-4.23861111111111</point>
+            <point>55.1008333333333,-4.23861111111111</point>
+            <point>55.1669444444444,-4.74972222222222</point>
+            <point>55.1669444444444,-4.74972222222222</point>
+            <point>55.0577777777778,-4.84555555555556</point>
+            <point>55.1305555555556,-5.10638888888889</point>
+            <point>55.2530555555556,-5</point>
+            <point>55.8333333333333,-5</point>
+            <point>56,-4.73333333333333</point>
+            <point>56.2333333333333,-4.15722222222222</point>
+            <point>56.1166666666667,-4.15277777777778</point>
+            <point>56.0394444444444,-4.08833333333333</point>
+            <point>56.1166666666667,-3.49388888888889</point>
+            <point>56.1166666666667,-2.93555555555556</point>
+            <point>56.0022222222222,-2.81361111111111</point>
+            <point>55.8930555555556,-2.82527777777778</point>
+        </multiPointLine>
+		</route>
+		 <route name="London Area Control" stroke="dashed,1" displayMode="always" zoomMin="300" color="255,215,0">
+<!-- Sector 10 -->
+        <multiPointLine close="False">
+            <point>54.5,-3.59305555555556</point>
+            <point>53.6902777777778,-3.45972222222222</point>
+            <point>53.6969444444444,-3.61361111111111</point>
+            <point>53.8994444444444,-4.10222222222222</point>
+            <point>53.7713888888889,-4.52</point>
+            <point>53.8047222222222,-5.5</point>
+            <point>53.2841666666667,-5.5</point>
+            <point>52.9283333333333,-4.24638888888889</point>
+            <point>52.9102777777778,-3.44805555555556</point>
+            <point>52.8925,-2.83722222222222</point>
+            <point>52.8530555555556,-2.76416666666667</point>
+            <point>52.7225,-2.65138888888889</point>
+            <point>53.1713888888889,-1.34527777777778</point>
+            <point>53.1713888888889,-1.34527777777778</point>
+            <point>52.9805555555556,-1.15166666666667</point>
+            <point>53.0738888888889,-0.739444444444444</point>
+            <point>52.4405555555556,-0.17</point>
+            <point>52.4375,0.23</point>
+            <point>52.4194444444444,1.47111111111111</point>
+            <point>52.3886111111111,2.71027777777778</point>
+            <point>52.4719444444444,2.77888888888889</point>
+            <point>53.1747222222222,3.36611111111111</point>
+            <point>53.2447222222222,3.18388888888889</point>
+            <point>53.3036111111111,2.73333333333333</point>
+            <point>53.3838888888889,2.66833333333333</point>
+            <point>53.4916666666667,1.42361111111111</point>
+            <point>54.0280555555556,0.455277777777778</point>
+            <point>54.0291666666667,0.100555555555556</point>
+            <point>54.0297222222222,-1.5875</point>
+            <point>54.0119444444444,-2.46194444444444</point>
+            <point>54.5,-2.87916666666667</point>
+            <point>54.5,-3.59305555555556</point>
+        </multiPointLine>
+<!-- Sector 28 -->
+        <multiPointLine close="False">
+            <point>52.4405555555556,-0.17</point>
+            <point>52.3183333333333,-0.0622222222222222</point>
+            <point>52.0411111111111,0.256666666666667</point>
+            <point>51.8,-0.641666666666667</point>
+            <point>51.9830555555556,-0.867222222222222</point>
+            <point>51.7219444444444,-1.47694444444444</point>
+            <point>51.6619444444444,-1.44611111111111</point>
+            <point>51.6805555555556,-1.57277777777778</point>
+            <point>52.1547222222222,-2.07472222222222</point>
+            <point>52.5480555555556,-2.50305555555556</point>
+            <point>52.7225,-2.65138888888889</point>
+            <point>53.1713888888889,-1.34527777777778</point>
+        </multiPointLine>
+<!-- Sector 35 -->
+        <multiPointLine close="False">
+            <point>49.9163888888889,-2.50361111111111</point>
+            <point>50.2958333333333,-2.45722222222222</point>
+            <point>50.6213888888889,-2.29083333333333</point>
+            <point>50.6663888888889,-2.515</point>
+            <point>50.8297222222222,-2.55472222222222</point>
+            <point>50.9291666666667,-2</point>
+            <point>51.2575,-2</point>
+            <point>51.2105555555556,-1.6</point>
+            <point>51.2305555555556,-1.36638888888889</point>
+            <point>51.2305555555556,-1.36638888888889</point>
+            <point>51.2713888888889,-1.34916666666667</point>
+            <point>51.5922222222222,-1.35083333333333</point>
+            <point>51.6002777777778,-1.41472222222222</point>
+            <point>51.6619444444444,-1.44611111111111</point>
+            <point>51.6805555555556,-1.57277777777778</point>
+            <point>52.1547222222222,-2.07472222222222</point>
+            <point>52.5480555555556,-2.50305555555556</point>
+            <point>52.8530555555556,-2.76416666666667</point>
+            <point>52.8925,-2.83722222222222</point>
+            <point>52.9102777777778,-3.44805555555556</point>
+            <point>52.9283333333333,-4.24638888888889</point>
+            <point>53.2841666666667,-5.5</point>
+            <point>53.1763888888889,-5.5</point>
+            <point>52.9511111111111,-5.5</point>
+            <point>52.3333333333333,-5.5</point>
+            <point>52.0136111111111,-6.12222222222222</point>
+            <point>51.7008333333333,-6.71666666666667</point>
+            <point>51.4244444444444,-7.23083333333333</point>
+            <point>51,-8</point>
+            <point>49.5833333333333,-8</point>
+            <point>49.4780555555556,-4.91638888888889</point>
+            <point>49.6216666666667,-4.16111111111111</point>
+            <point>49.9163888888889,-2.50361111111111</point>
+        </multiPointLine>
+<!-- Sector 20 -->
+        <multiPointLine close="False">
+            <point>51.1480555555556,-0.190277777777778</point>
+            <point>51.4541666666667,0.550277777777778</point>
+            <point>51.4488888888889,0.924444444444444</point>
+            <point>51.4375,1.12222222222222</point>
+            <point>51.3833333333333,2</point>
+            <point>51.1166666666667,2</point>
+            <point>51,1.46666666666667</point>
+            <point>50.9055555555556,1.46666666666667</point>
+            <point>50.7116666666667,1.73555555555556</point>
+            <point>50.6019444444444,1.53888888888889</point>
+            <point>50.6622222222222,1.45527777777778</point>
+            <point>50.4213888888889,0.821388888888889</point>
+            <point>50.0538888888889,-0.115555555555556</point>
+            <point>50,-0.25</point>
+            <point>50,-0.531388888888889</point>
+            <point>50,-1.25194444444444</point>
+            <point>50,-1.50972222222222</point>
+            <point>50,-2</point>
+            <point>49.9725,-2.165</point>
+            <point>49.9163888888889,-2.50361111111111</point>
+            <point>50.2958333333333,-2.45722222222222</point>
+            <point>50.6213888888889,-2.29083333333333</point>
+            <point>50.6663888888889,-2.515</point>
+            <point>50.8297222222222,-2.55472222222222</point>
+            <point>50.9291666666667,-2</point>
+            <point>51.2575,-2</point>
+            <point>51.2575,-2</point>
+            <point>51.2105555555556,-1.6</point>
+            <point>51.2305555555556,-1.36638888888889</point>
+            <point>51.1880555555556,-1.11</point>
+            <point>50.9263888888889,-0.930277777777778</point>
+            <point>50.8094444444444,-0.851111111111111</point>
+            <point>50.7738888888889,-0.828333333333333</point>
+            <point>51.1480555555556,-0.190277777777778</point>
+        </multiPointLine>
+<!-- Sector 26 -->
+        <multiPointLine close="False">
+            <point>52.4405555555556,-0.17</point>
+            <point>52.3183333333333,-0.0622222222222222</point>
+            <point>52.0411111111111,0.256666666666667</point>
+            <point>51.8,-0.641666666666667</point>
+            <point>51.9830555555556,-0.867222222222222</point>
+            <point>51.7219444444444,-1.47694444444444</point>
+            <point>51.6619444444444,-1.44611111111111</point>
+            <point>51.6002777777778,-1.41472222222222</point>
+            <point>51.5922222222222,-1.35083333333333</point>
+            <point>51.2713888888889,-1.34916666666667</point>
+            <point>51.2305555555556,-1.36638888888889</point>
+            <point>51.1880555555556,-1.11</point>
+            <point>50.9263888888889,-0.930277777777778</point>
+            <point>50.8094444444444,-0.851111111111111</point>
+            <point>50.7738888888889,-0.828333333333333</point>
+            <point>51.1480555555556,-0.190277777777778</point>
+            <point>51.4541666666667,0.550277777777778</point>
+            <point>51.4488888888889,0.924444444444444</point>
+            <point>51.4375,1.12222222222222</point>
+            <point>51.3833333333333,2</point>
+            <point>51.5,2</point>
+            <point>51.4555555555556,2.5</point>
+            <point>51.6369444444444,2.5</point>
+            <point>51.4805555555556,3.17194444444444</point>
+            <point>51.9655555555556,3.17194444444444</point>
+            <point>51.9538888888889,2.5</point>
+            <point>51.9505555555556,2.35527777777778</point>
+            <point>52.3886111111111,2.71027777777778</point>
+            <point>52.4194444444444,1.47111111111111</point>
+            <point>52.4375,0.23</point>
+            <point>52.4405555555556,-0.17</point>
+        </multiPointLine>
+		<multiPointLine closed="false" >
+			<point>N061°00'00",E000°00'00</point> 
+			<point>N060°00'00",E000°00'00"</point>
+			<point>N060°00'00",E000°00'00"</point> 
+			<point>N057°00'00",E005°00'00"</point>
+			<point>N057°00'00",E005°00'00"</point> 
+			<point>N055°00'00",E005°00'00"</point>
+			<point>N055°00'00",E005°00'00"</point> 
+			<point>N053°59'17",E004°05'28"</point>
+		</multiPointLine>
+		<multiPointLine closed="false" >
+			<point>N054°34'19",E003°43'41"</point> 
+			<point>N053°59'17",E004°05'28"</point>
+			<point>N053°59'17",E004°05'28"</point> 
+			<point>N053°34'08",E003°42'30"</point>
+			<point>N053°34'08",E003°42'30"</point> 
+			<point>N053°41'48",E003°00'00"</point>
+			<point>N053°41'48",E003°00'00"</point> 
+			<point>N053°44'12",E003°00'00"</point>
+			<point>N053°44'12",E003°00'00"</point> 
+			<point>N054°34'19",E003°43'41"</point>
+		</multiPointLine>
+		<multiPointLine closed="false" >
+			<point>N053°41'48",E003°00'00"</point> 
+			<point>N053°34'08",E003°42'30"</point>
+			<point>N053°34'08",E003°42'30"</point> 
+			<point>N053°27'55",E003°36'56"</point>
+			<point>N053°27'55",E003°36'56"</point> 
+			<point>N053°10'30",E003°21'57"</point>
+			<point>N053°10'30",E003°21'57"</point> 
+			<point>N053°14'40",E003°11'02"</point>
+			<point>N053°14'40",E003°11'02"</point> 
+			<point>N053°16'08",E003°00'00"</point>
+			<point>N053°16'08",E003°00'00"</point> 
+			<point>N053°41'48",E003°00'00"</point>
+		</multiPointLine>
+    </route>
+	<route name="grounds" zoomMin="0" zoomMax="20" color="255,0,0" >
+		<line start="55.942659,-3.388346" end="55.954372,-3.353943" text="A" />
+		<line start="55.942659,-3.388346" end="55.943532,-3.389210" text="A" />
+		<line start="55.954372,-3.353943" end="55.955352,-3.354843" text="A" />
+		<line start="55.946803,-3.380434" end="55.945854,-3.379454" text="B" />
+		<line start="55.952381,-3.364014" end="55.951486,-3.363027" text="C" />
+		<line start="55.951298,-3.362071" end="55.950980,-3.359857" />
+		<line start="55.950980,-3.359857" end="55.950309,-3.358070" text="L" />
+		<line start="55.952177,-3.359798" end="55.951458,-3.359403" text="M" />
+		<line start="55.950686,-3.364125" end="55.950087,-3.363620" text="F" />
+		<line start="55.950087,-3.363620" end="55.948718,-3.367546" text="F" />
+		<line start="55.948718,-3.367546" end="55.949251,-3.368333" text="E" />
+		<line start="55.948718,-3.367546" end="55.945697,-3.367393" text="E" />
+		<line start="55.950309,-3.358070" end="55.949720,-3.358605" />
+		<line start="55.946734,-3.350669" end="55.947858,-3.349371" text="H" />
+		<line start="55.948434,-3.348938" end="55.949257,-3.348171" text="S" />
+		<line start="55.946428,-3.344661" end="55.945884,-3.348694" text="U" />
+		<line start="55.949985,-3.353920" end="55.950845,-3.353144" text="Q" />
+		<line start="55.952630,-3.358279" end="55.952283,-3.357912" />
+		<line start="55.952283,-3.357912" end="55.950845,-3.353144" text="P" />
+		<line start="55.948383,-3.348298" end="55.949441,-3.342672" text="NOT USED" color="100,149,237" />
+		<line start="55.949589,-3.342814" end="55.948849,-3.341677" text="NOT USED" color="100,149,237" />
+		<line start="55.946973,-3.344094" end="55.948872,-3.342144" text="NOT USED" color="100,149,237" />
+		<line start="55.948747,-3.341332" end="55.945233,-3.333857" text="NOT USED" color="100,149,237" />
+		<line start="55.949884,-3.345820" end="55.950112,-3.343424" text="NOT USED" color="100,149,237" />
+		<line start="55.950112,-3.343424" end="55.949623,-3.342753" color="100,149,237" />
+		<line start="55.863216,-4.448225" end="55.862341,-4.446887" text="G" />
+		<line start="55.862341,-4.446887" end="55.867220,-4.437258" text="G" />
+		<line start="55.867220,-4.437258" end="55.868482,-4.429798" text="G" />
+		<line start="55.868482,-4.429798" end="55.874067,-4.425561" text="A" />
+		<line start="55.874067,-4.425561" end="55.877604,-4.419115" text="A" />
+		<line start="55.877604,-4.419115" end="55.878707,-4.418507" />
+		<line start="55.878707,-4.418507" end="55.879071,-4.418912" />
+		<line start="55.872133,-4.431785" end="55.872065,-4.427670" text="C" />
+		<line start="55.872201,-4.444597" end="55.872122,-4.434217" text="Y" />
+		<line start="55.872201,-4.444597" end="55.868215,-4.444852" text="Z" />
+		<line start="55.868215,-4.444852" end="55.867662,-4.444489" />
+		<line start="55.867662,-4.444489" end="55.867069,-4.443445" />
+		<line start="55.865200,-4.444841" end="55.864180,-4.445322" text="F" />
+		<line start="55.864180,-4.445322" end="55.863640,-4.445064" />
+		<line start="55.866306,-4.442717" end="55.866174,-4.440629" text="E" />
+		<line start="55.869577,-4.436594" end="55.867517,-4.437743" text="D" />
+		<line start="55.869524,-4.432957" end="55.868412,-4.432359" text="Q" />
+		<line start="55.870490,-4.427874" end="55.870088,-4.425569" text="J" />
+		<line start="55.877450,-4.422041" end="55.876528,-4.421471" text="B" />
+		<line start="55.865344,-4.440104" end="55.863679,-4.438450" text="N" />
+		<line start="55.866963,-4.435986" end="55.864719,-4.434848" text="M" />
+		<line start="55.867523,-4.432748" end="55.865371,-4.431611" text="L" />
+		<line start="55.867977,-4.430039" end="55.865779,-4.428854" text="K" />
+		<line start="55.865779,-4.428854" end="55.865390,-4.429135" />
+		<line start="55.864536,-4.441526" end="55.862991,-4.440175" color="160,32,240" />
+		<line start="55.862991,-4.440175" end="55.864981,-4.429143" color="160,32,240" />
+		<line start="55.864981,-4.429143" end="55.864744,-4.428113" color="160,32,240" />
+		<line start="55.864744,-4.428113" end="55.865284,-4.426981" color="160,32,240" />
+		<line start="55.865284,-4.426981" end="55.868668,-4.428468" color="160,32,240" />
+		<line start="55.865123,-4.429498" end="55.867758,-4.430816" color="160,32,240" />
+		<line start="55.867758,-4.430816" end="55.867512,-4.431931" color="160,32,240" />
+		<line start="55.867512,-4.431931" end="55.865256,-4.430731" color="160,32,240" />
+		<line start="55.865256,-4.430731" end="55.864972,-4.432235" color="160,32,240" />
+		<line start="55.864972,-4.432235" end="55.867351,-4.433451" color="160,32,240" />
+		<line start="55.867351,-4.433451" end="55.867095,-4.434955" color="160,32,240" />
+		<line start="55.867095,-4.434955" end="55.864829,-4.433823" color="160,32,240" />
+		<line start="55.864697,-4.433661" end="55.864354,-4.435665" color="160,32,240" />
+		<line start="55.864354,-4.435665" end="55.866707,-4.436956" color="160,32,240" />
+		<line start="55.866707,-4.436956" end="55.865610,-4.439146" color="160,32,240" />
+		<line start="55.865610,-4.439146" end="55.863811,-4.437542" color="160,32,240" />
+		<line start="55.863811,-4.437542" end="55.865123,-4.429498" color="160,32,240" />
+		<text position="55.865254,-4.437608" text="International Pier" fontSize="15" alignHeading="170" />
+		<text position="55.864695,-4.432944" text="Termial Building" fontSize="15" alignHeading="080" />
+		<text position="55.870480,-4.425748" text="GA Apron" fontSize="15" alignHeading="110" />
+		<line start="" end="" color="160,32,240" />
+		<line start="" end="" color="160,32,240" />
+		<line start="" end="" color="160,32,240" />
+		<line start="" end="" color="160,32,240" />
+		<line start="" end="" color="160,32,240" />
+		<line start="" end="" color="160,32,240" />
+		<line start="" end="" color="160,32,240" />
+		<line start="" end="" color="160,32,240" />
+		<line start="" end="" color="160,32,240" />
+		<line start="" end="" color="160,32,240" />
+	</route>
+	----------------------------ILS-----------------------------------
+	<route name="ILA" color="255,20,147" displayMode="always" stroke="dots" >
+		<line start="23" end="12NM050@23" text="23-230" />
+		<line start="05" end="12NM230@05" text="05-050" />
+		<line start="13" end="12NM305@13" text="13-125" />
+		<line start="31" end="12NM125@31" text="31-305" />
+	</route>
+	--------------------------SID/STAR--------------------------------
+	<route name="DALEY 2A" color="0,0,255" displayMode="always" >
+		<navaids>LAKEY,DALEY</navaids>
+		<line start="LAKEY" end="DALEY" text="149" arrows="end" />
+		<screenText screenPos="100,590" text="DALEY 2A" fontSize="20" clickable="true" />
+	</route>
+	
+	<route name="GOSAM 1C" color="0,0,255" zoomMin="0" zoomMax="300" displayMode="SID" font="Arial" fontSize="15" >
+		<navaids>UW,MAVIX,GOSAM</navaids>
+		<activeStartRunways>24</activeStartRunways>
+		<line start="IVG01" end="UW" text="241" arrows="end" />
+		<line start="UW" end="MAVIX" text="263" arrows="end" />
+		<intercept start="MAVIX" end="GOSAM" startHeading="263" endHeading="218" direction="left" arrows="end" text="218" />
+		<screenText screenPos="100,230" text="GOSAM 1C" fontSize="20" />
+	</route>
+	
+	<route name="GOSAM 1D" color="0,0,255" zoomMin="0" zoomMax="300" displayMode="SID" font="Arial" fontSize="15" >
+		<navaids>CUMBO,GOW,GOSAM</navaids>
+		<activeStartRunways>06</activeStartRunways>
+		<line start="55.956328,-3.353718" end="IVG05" text="061" />
+		<line start="IVG05" end="3NM045@IVG05" text="045" arrows="end" />
+		<intercept start="3NM045@IVG05" end="CUMBO" startHeading="045" endHeading="258" direction="left" text="258" arrows="end" />
+		<intercept start="CUMBO" end="GOSAM" startHeading="258" endHeading="218" direction="left" text="218" arrows="end" />
+		<screenText screenPos="100,230" text="GOSAM 1D" fontSize="20" />
+	</route>
+	
+	<route name="TLA 6C" color="0,0,255" zoomMin="0" zoomMax="300" displayMode="SID" font="Arial" fontSize="15" >
+		<navaids>UW,TLA</navaids>
+		<activeStartRunways>24</activeStartRunways>
+		<line start="IVG01" end="UW" text="241" arrows="end" />
+		<intercept start="UW" end="TLA" startHeading="241" endHeading="166" direction="left" arrows="end" text="166" />
+		<screenText screenPos="100,260" text="TALLA 6C" fontSize="20" />
+	</route>
+	
+	<route name="TLA 6D" color="0,0,255" zoomMin="0" zoomMax="300" displayMode="SID" font="Arial" fontSize="15" >
+		<navaids>TLA</navaids>
+		<activeStartRunways>06</activeStartRunways>
+		<line start="55.956328,-3.353718" end="IVG05" text="061" />
+		<line start="IVG05" end="IVG07" text="045" arrows="end" />
+		<intercept start="IVG07" end="30NM025@TLA" startHeading="045" endHeading="145" direction="right" arrows="end" text="145" />
+		<intercept start="30NM025@TLA" end="TLA" startHeading="145" endHeading="207" direction="right" arrows="end" text="207" />
+		<screenText screenPos="100,260" text="TALLA 6D" fontSize="20" />
+	</route>
+	
+	<route name="TLA 5G" color="0,0,255" zoomMin="0" zoomMax="300" displayMode="SID" font="Arial" fontSize="15" >
+		<navaids>TLA</navaids>
+		<activeStartRunways>12</activeStartRunways>
+		<intercept start="55.943284,-3.333401" end="TLA" startHeading="121" endHeading="207" arrows="end" direction="right" text="207" />
+		<text position="55.909832,-3.213186" text="161" />
+		<screenText screenPos="100,320" text="Talla 5G" fontSize="20" />
+	</route>
+	
+	<route name="GRICE 3C" color="0,0,255" zoomMin="0" zoomMax="300" displayMode="SID" font="Arial" fontSize="15" >
+		<navaids>UW,TLA,GRICE</navaids>
+		<activeStartRunways>24</activeStartRunways>
+		<line start="IVG01" end="UW" text="241" arrows="end" />
+		<intercept start="UW" end="32NM353@TLA" startHeading="241" endHeading="353" direction="right" arrows="end" text="353" />
+		<intercept start="32NM353@TLA" end="56.052774,-3.599400" startHeading="353" endHeading="295" direction="left" arrows="end" text="295" />
+		<intercept start="56.052774,-3.599400" end="GRICE" startHeading="295" endHeading="348" direction="right" arrows="end" text="348" />
+		<screenText screenPos="100,290" text="GRICE 3C" fontSize="20" />
+	</route>
+	
+	<route name="GRICE 4D" color="0,0,255" zoomMin="0" zoomMax="300" displayMode="SID" font="Arial" fontSize="15" >
+		<navaids>SAB,TLA,GRICE</navaids>
+		<activeStartRunways>06</activeStartRunways>
+		<line start="55.956328,-3.353718" end="IVG05" text="061" />
+		<intercept start="IVG05" end="46NM287@SAB" startHeading="045" endHeading="287" direction="left" arrows="end" text="287" />
+		<intercept start="46NM287@SAB" end="GRICE" startHeading="287" endHeading="348" direction="right" arrows="end" text="348" />
+		<screenText screenPos="100,290" text="GRICE 4D" fontSize="20" />
+	</route>
+	
+	<route name="STIRA 1A" color="255,140,0" zoomMin="0" zoomMax="300" displayMode="STAR" font="Arial" fontSize="15" >
+		<navaids>PTH,GOW,STIRA,EDN,TLA,GRICE,UW</navaids>
+		<activeLandingRunways>24,06</activeLandingRunways>
+		<line start="PTH" end="GRICE" arrows="end" text="219" />
+		<text position="56.484832,-3.391988" text="DM 7000" />
+		<line start="GRICE" end="STIRA" arrows="end" />
+		<loop navpoint="STIRA" inboundHeading="236" width="3" length="4.5" arrows="both" />
+		<screenText screenPos="100,410" text="STIRA 1A" fontSize="20" />
+	</route>
+	
+	<route name="TWEED 2C" color="255,140,0" zoomMin="0" zoomMax="300" displayMode="STAR" font="Arial" fontSize="15" >
+		<navaids>BLACA,GIRVA,TLA,TARTN,EDN,TWEED</navaids>
+		<activeLandingRunways>24,06</activeLandingRunways>
+		<line start="BLACA" end="GIRVA" text="030" arrows="end" />
+		<line start="GIRVA" end="TLA" text="074" arrows="end" />
+		<line start="TLA" end="TARTN" text="032" arows="end" />
+		<loop navpoint="TARTN" inboundHeading="032" width="3" length="4.5" right="false" arrows="both" />
+		<screenText screenPos="100,440" text="TWEED 2C" fontSize="20" />
+	</route>
+	
+	<route name="TWEED 2D" color="255,140,0" zoomMin="0" zoomMax="300" displayMode="STAR" font="Arial" fontSize="15" >
+		<navaids>HAVEN,TARTN,EDN,TWEED</navaids>
+		<activeLandingRunways>24,06</activeLandingRunways>
+		<line start="HAVEN" end="TARTN" arrows="end" text="346" />
+		<loop navpoint="TARTN" inboundHeading="032" width="3" length="4.5" right="false" arrows="both" />
+		<screenText screenPos="100,470" text="TWEED 2D" fontSize="20" />
+	</route>
+	
+	<route name="EDN 3A" color="255,140,0" zoomMin="0" zoomMax="300" displayMode="STAR" font="Arial" fontSize="15" >
+		<navaids>ESKDO,PHS48,TARTN,EDN,TWEED</navaids>
+		<activeLandingRunways>24,06</activeLandingRunways>
+		<line start="ESKDO" end="PHS48" arrows="end" text="008" />
+		<line start="PHS48" end="TARTN" arrows="end" text="008" />
+		<loop navpoint="TARTN" inboundHeading="032" width="3" length="4.5" right="false" arrows="both" />
+		<screenText screenPos="100,500" text="EDINBURGH 3A" fontSize="20" />
+		<restriction position="55.340102,-3.140425" maxspeed="250KT" stroke="line,1" fontSize="10" />
+	</route>
+	
+	<route name="NORBO 1J" color="138,43,226" zoomMin="0" zoomMax="300" displayMode="SID" font="Arial" fontSize="15" >
+		<navaids>GOW,XEXUS,ELBAN,TRN,NORBO</navaids>
+		<line start="23" end="XEXUS" />
+		<intercept start="XEXUS" end="ELBAN" startHeading="053" endHeading="247" speed="390" direction="left" text="247" />
+		<intercept start="ELBAN" end="NORBO" startHeading="236" endHeading="186" direction="left" text="186" arrows="end" />
+		<text position="55.920808,-4.623844" text="236" />
+		<screenText screenPos="100,650" text="NORBO 1J" fontSize="20" clickable="true" />
+	</route>
+	
+	<route name="NORBO 1H" color="138,43,226" zoomMin="0" zoomMax="300" displayMode="SID" font="Arial" fontSize="15" >
+		<navaids>GOW,TRN,NORBO</navaids>
+		<line start="05" end="14NM227@GOW" text="227" />
+		<intercept start="14NM227@GOW" end="NORBO" startHeading="227" endHeading="186" direction="left" arrows="end" />
+		<screenText screenPos="100,680" text="NORBO 1H" fontSize="20" clickable="true" />
+	</route>
+	
+	<route name="PTH 4B" color="138,43,226" zoomMin="0" zoomMax="300" displayMode="SID" font="Arial" fontSize="15" >
+		<navaids>GOW,XEXUS,PTH</navaids>
+		<line start="23" end="XEXUS" />
+		<line start="XEXUS" end="PTH" text="050" arrows="end" />
+		<screenText screenPos="100,710" text="PTH 4B" fontSize="20" clickable="true" />
+	</route>
+	
+	<route name="PTH 4A" color="138,43,226" zoomMin="0" zoomMax="300" displayMode="SID" font="Arial" fontSize="15" >
+		<navaids>GOW,XETUN,ELBAN,PTH</navaids>
+		<line start="05" end="XETUN" />
+		<intercept start="XETUN" end="ELBAN" startHeading="227" endHeading="046" speed="463" direction="right" text="046" />
+		<intercept start="ELBAN" end="7NM342@GOW" startHeading="046" endHeading="342" direction="left" text="342" />
+		<intercept start="7NM342@GOW" end="56.14138889,-4.148888889" startHeading="342" endHeading="059" direction="right" text="059" />
+		<line start="56.14138889,-4.148888889" end="56.1725,-4.038055556" text="079" />
+		<line start="56.1725,-4.038055556" end="PTH" text="056" arrows="end" />
+		<screenText screenPos="100,740" text="PTH 4B" fontSize="20" clickable="true" />
+	</route>
+	
+	<route name="LOMON 3B" color="138,43,226" zoomMin="0" zoomMax="300" displayMode="SID" font="Arial" fontSize="15" >
+		<navaids>GOW,XEXUS,LOMON</navaids>
+		<line start="23" end="XEXUS" />
+		<intercept start="XEXUS" end="55.993474,-4.489626" startHeading="050" endHeading="279" speed="385" direction="left" text="279" />
+		<intercept start="55.993474,-4.489626" end="LOMON" startHeading="279" endHeading="342" direction="right" text="342" arrows="end" />
+		<screenText screenPos="100,770" text="LOMON 3B" fontSize="20" clickable="true" />
+	</route>
+	
+	<route name="LOMON 3A" color="138,43,226" zoomMin="0" zoomMax="300" displayMode="SID" font="Arial" fontSize="15" >
+		<navaids>GOW,XETUN,LOMON,ELBAN</navaids>
+		<line start="05" end="XETUN" />
+		<intercept start="XETUN" end="ELBAN" startHeading="227" endHeading="046" speed="463" direction="right" text="046" />
+		<intercept start="ELBAN" end="LOMON" startHeading="046" endHeading="342" direction="left" arrows="end" />
+		<screenText screenPos="230,770" text="LOMON 3A" fontSize="20" clickable="true" />
+	</route>
+	
+	<route name="GOW 1D" color="102,205,0" zoomMin="0" zoomMax="300" displayMode="STAR" font="Arial" fontSize="15" >
+		<navaids>FOYLE,GOW</navaids>
+		<line start="ERSON" end="FOYLE" text="191" />
+		<line start="FOYLE" end="GOW" arrows="end" />
+		<screenText screenPos="270,590" text="GOW 1D" fontSize="20" clickable="true" />
+	</route>
+	
+	<route name="GOW 1A" color="102,205,0" zoomMin="0" zoomMax="300" displayMode="STAR" font="Arial" fontSize="15" >
+		<navaids>FYNER,CLYDE,GOW</navaids>
+		<line start="FYNER" end="CLYDE" text="299" />
+		<line start="CLYDE" end="GOW" arrows="end" />
+		<screenText screenPos="270,620" text="GOW 1A" fontSize="20" clickable="true" />
+	</route>
+	
+	<route name="LANAK 2D" color="102,205,0" zoomMin="0" zoomMax="300" displayMode="STAR" font="Arial" fontSize="15" >
+		<navaids>LANAK,TLA,HAVEN</navaids>
+		<line start="HAVEN" end="TLA" text="283" />
+		<line start="TLA" end="LANAK" text="304" arrows="end" />
+		<screenText screenPos="270,650" text="LANAK 2D" fontSize="20" clickable="true" />
+	</route>
+	
+	<route name="TRN 1A" color="102,205,0" zoomMin="0" zoomMax="300" displayMode="STAR" font="Arial" fontSize="15" >
+		<navaids>BLACA,TRN,LANAK</navaids>
+		<line start="BLACA" end="TRN" arrows="end" />
+		<line start="TRN" end="LANAK" text="054" arrows="end" stroke="dashed" />
+		<screenText screenPos="270,680" text="TRN 1A" fontSize="20" clickable="true" />
+	</route>
+	
+	----------------------------------Airspace---------------------------------------------
+	<route name="Edinburgh Director" stroke="line,1" color="0,255,249" displayMode="always" zoomMax="300" >
+		<multiPointLine closed="false" >
+			<point>56.1183333333333,-3.81722222222222</point>
+			<point>56.1183333333333,-2.9375</point>
+			<point>56.0030555555556,-2.81527777777778</point>
+			<point>55.6919444444444,-2.92</point>
+			<point>55.6936111111111,-3.72694444444444</point>
+			<point>55.8036111111111,-3.90472222222222</point>
+			<point>55.9580555555556,-3.90611111111111</point>
+			<point>56.1183333333333,-3.81722222222222</point>
+		</multiPointLine>
+		<bow center="EGPH" radius="10" startAngle="360" extentAngle="360" stroke="dashed" text="Edinburgh Director" fontSize="15" />
+		<line start="55.920140,-3.067926" end="56.00361111,-2.816111111" />
+		<line start="55.81666667,-3.545277778" end="55.73305556,-3.789722222" />
+		<line start="55.991554,-3.649725" end="55.90722222,-3.905" />
+		<restriction position="56.040217,-3.736997" stroke="line,2" font="Arial" fontSize="15" notbelow="60" notabove="35" />
+		<restriction position="55.849591,-3.747762" stroke="line,2" font="Arial" fontSize="15" notbelow="60" notabove="25" />
+		<restriction position="55.749381,-3.296994" stroke="line,2" font="Arial" fontSize="15" notbelow="60" notabove="35" />
+		<restriction position="56.022134,-2.991548" stroke="line,2" font="Arial" fontSize="15" notbelow="60" notabove="25" />
+		<restriction position="55.840550,-3.340052" stroke="line,2" font="Arial" fontSize="15" notbelow="60" notabove="SFC" />
+		<restriction position="55.974291,-3.770534" stroke="line,2" font="Arial" fontSize="15" notabove="60" notbelow="FL245" />
+		<line start="55.973305,-3.747198" end="55.977166,-3.693911" arrows="end" />
+		<bow center="EGPH" radius="5" startAngle="360" extentAngle="360" stroke="dashed" color="127,255,0" text="5" />
+		<multiPointLine closed="false" stroke="dashed,1" >
+			<point>56.0258333333333,-4.07777777777778</point>
+			<point>55.7447222222222,-4.15805555555556</point>
+			<point>55.6938888888889,-4.4025</point>
+			<point>55.6186111111111,-4.48083333333333</point>
+			<point>55.7427777777778,-4.84472222222222</point>
+			<point>55.7705555555556,-4.83138888888889</point>
+			<point>55.9183333333333,-4.8675</point>
+			<point>56.0672222222222,-4.33388888888889</point>
+			<point>56.0258333333333,-4.07777777777778</point>
+		</multiPointLine>
+		<text position="55.987414,-4.514347" text="Glasgow Director"  fontSize="15" />
+		<restriction position="55.780158,-4.406107" stroke="line,2" font="Arial" fontSize="15" notbelow="60" notabove="SFC" />
+		<multiPointLine closed="false" stroke="dashed" >
+			<point>55.6275,-4.70888888888889</point>
+			<point>55.4794444444445,-4.27916666666667</point>
+			<point>55.4438888888889,-4.29555555555556</point>
+			<point>55.4216666666667,-4.31555555555556</point>
+			<point>55.3991666666667,-4.34111111111111</point>
+			<point>55.38,-4.37194444444444</point>
+			<point>55.3672222222222,-4.40083333333333</point>
+			<point>55.5144444444444,-4.83</point>
+			<point>55.5505555555556,-4.82027777777778</point>
+			<point>55.5830555555556,-4.79361111111111</point>
+			<point>55.6069444444444,-4.75916666666667</point>
+			<point>55.6275,-4.70888888888889</point>
+		</multiPointLine>
+		<multiPointLine closed="false" >
+			<point>55.4775,-4.27944444444445</point>
+			<point>55.45,-4.20027777777778</point>
+			<point>55.4083333333333,-4.22722222222222</point>
+			<point>55.3716666666667,-4.26694444444444</point>
+			<point>55.3383333333333,-4.32333333333333</point>
+			<point>55.3652777777778,-4.40166666666667</point>
+			<point>55.3461111111111,-4.45472222222222</point>
+			<point>55.4241666666667,-4.67972222222222</point>
+			<point>55.4716666666667,-4.81916666666667</point>
+			<point>55.5247222222222,-4.97583333333333</point>
+			<point>55.5925,-4.94972222222222</point>
+			<point>55.6366666666667,-4.90583333333333</point>
+			<point>55.6738888888889,-4.84861111111111</point>
+			<point>55.6272222222222,-4.71083333333333</point>
+		</multiPointLine>
+		<multiPointLine closed="false" >
+		<point>55.4508333333333,-4.19916666666667</point>
+		<point>55.4238888888889,-4.12305555555556</point>
+		<point>55.3730555555556,-4.16222222222222</point>
+		<point>55.3313888888889,-4.21222222222222</point>
+		<point>55.2880555555556,-4.29111111111111</point>
+		<point>55.3458333333333,-4.45722222222222</point>
+		<point>55.3158333333333,-4.78277777777778</point>
+		<point>55.5238888888889,-4.975</point>
+		</multiPointLine>
+		<multiPointLine closed="false" >
+		<point>55.4719444444444,-4.82</point>
+		<point>55.5138888888889,-4.82944444444444</point>
+		</multiPointLine>
+		<multiPointLine closed="false" >
+		<point>55.4238888888889,-4.67972222222222</point>
+		<point>55.4522222222222,-4.65305555555556</point>
+		</multiPointLine>
+		<restriction position="55.426146,-4.440924" notbelow="55" notabove="SFC" fontSize="15" stroke="line,2" />
+		<restriction position="55.443302,-4.255229" notabove="30" notbelow="55" fontSize="15" stroke="line,2" />
+		<restriction position="55.320865,-4.320266" notabove="40" notbelow="55" fontSize="15" stroke="line,2" />
+		<restriction position="55.402490,-4.564712" notabove="30" notbelow="55" fontSize="15" stroke="line,2" />
+		<restriction position="55.472813,-4.763185" notabove="20" notbelow="55" fontSize="15" stroke="line,2" />
+		<restriction position="55.629156,-4.850647" notabove="15" notbelow="55" fontSize="15" stroke="line,2" />
+		<restriction position="55.357282,-4.720575" notabove="35" notbelow="55" fontSize="15" stroke="line,2" />
+		<text position="55.573470,-4.619469" text="Prestwick Director" fontSize="15" />
+	</route>
+	
+	<route name="LOA" displayMode="optional" >
+		<line start="DCS" end="MCT" color="191,62,255" stroke="line,30" />
+		<line start="POL" end="SHAPP" color="255,20,147" stroke="line,30" />
+		<line start="SHAPP" end="MARGO" color="255,20,147" stroke="dashed" arrows="end" />
+		<line start="MCT" end="VEGAR" color="191,62,255" stroke="dashed" arrows="end" />
+	</route>
+	
+	<route name="TRACON Gates" displayMode="always" >
+		<line start="54.496393,-2.917507" end="55.075722,-3.248981" color="30,144,255" stroke="dashed" />
+		<line start="55.056391,-4.843254" end="54.948241,-4.934179" color="30,144,255" stroke="dashed" />
+		<line start="55.129804,-5.103311" end="55.023796,-5.205911" color="30,144,255" stroke="dashed" />
+		<line start="56.039344,-4.086737" end="56.132706,-3.832010" color="34,139,34" stroke="dashed" />
+		<line start="56.232226,-4.155051" end="56.308082,-3.900902" color="34,139,34" stroke="dashed" />
+		<line start="54.498633,-2.981704" end="55.061266,-3.310630" color="34,139,34" stroke="dashed" />
+		<line start="56.089141,-3.700618" end="56.191371,-3.742301" color="34,139,34" stroke="dashed" />
+		<line start="56.109213,-3.539723" end="56.208643,-3.599746" color="34,139,34" stroke="dashed" />
+		<line start="56.083119,-4.525702" end="56.180267,-4.588414" color="34,139,34" stroke="dashed" />
+		<line start="56.045599,-4.616528" end="56.153396,-4.703590" color="34,139,34" stroke="dashed" />
+		<line start="56.119167,-4.435690" end="56.219393,-4.427579" color="30,144,255" stroke="dashed" />
+		<line start="56.161256,-4.331865" end="56.236653,-4.318346" color="30,144,255" stroke="dashed" />
+		<line start="56.067277,-3.864823" end="56.152667,-3.909706" color="30,144,255" stroke="dashed" />
+		<line start="56.081812,-3.757213" end="56.180827,-3.801014" color="30,144,255" stroke="dashed" />
+		<line start="55.940673,-4.825123" end="55.986820,-4.986052" color="30,144,255" stroke="dashed" />
+		<line start="55.985003,-4.755690" end="56.035873,-4.913375" color="30,144,255" stroke="dashed" />
+	</route>
+
+	<route name="navaids" displayMode="always" >
+		<bow center="TLA" radius="1" startAngle="360" extentAngle="360" stroke="dots" color="127,255,0" />
+		<bow center="DCS" radius="1" startAngle="360" extentAngle="360" stroke="dots" color="127,255,0" />
+		<bow center="TRN" radius="1" startAngle="360" extentAngle="360" stroke="dots" color="127,255,0" />
+		<bow center="PTH" radius="1" startAngle="360" extentAngle="360" stroke="dots" color="127,255,0" />
+		<bow center="GOW" radius="1" startAngle="360" extentAngle="360" stroke="dots" color="127,255,0" zoomMin="40" />
+	</route>
+	---------------------------------------------------------------------------------------
+	<route name="Screen Text" displayMode="always">
+		<screenText screenPos="330,20" text="TALLA Terminal Center 126.30 IAHM-COL" color="30,144,255" font="Arial" fontSize="35" />
+		<screenText screenPos="100,200" text="Edinburgh SID" color="255,0,0" font="Arial" fontSize="20" />
+		<screenText screenPos="100,380" text="Edinburgh STAR" color="255,0,0" font="Arial" fontSize="20" />
+		<screenText screenPos="1300,30" text="NAVAIDS NOT IN FG AIRAC" color="255,193,37" font="Arial" fontSize="20" />
+		<screenText screenPos="1300,50" text="GOSAM,PHS48" color="255,193,37" font="Arial" fontSize="20" />
+		<screenText screenPos="120,60" text="Controller Frequencies" font="Arial" fontSize="20" color="0,255,0" />
+		<screenText screenPos="120,80" text="MORAY AC 129.225" font="Arial" fontSize="20" color="0,255,0" />
+		<screenText screenPos="120,100" text="WEST AC 127.275" font="Arial" fontSize="20" color="0,255,0" />
+		<screenText screenPos="120,120" text="EAST 134.425" font="Arial" fontSize="20" color="0,255,0" />
+		<screenText screenPos="120,140" text="WALLASEY 134.425" font="Arial" fontSize="20" color="0,255,0" />
+		<screenText screenPos="100,560" text="Manchester STAR" font="Arial" fontSize="20" color="255,0,0" />
+		<screenText screenPos="1300,100" text="Localizer Frequencies" color="255,20,147" font="Arial" fontSize="20" />
+		<screenText screenPos="1300,120" text="EGPH: 06-108.90 H061" color="255,20,147" font="Arial" fontSize="20" />
+		<screenText screenPos="1300,140" text="24-108.90 H241" color="255,20,147" font="Arial" fontSize="20" />
+		<screenText screenPos="1300,160" text="EGPF: 05-110.10 H050" color="255,20,147" font="Arial" fontSize="20" />
+		<screenText screenPos="1300,180" text="23-110.10 H230" color="255,20,147" font="Arial" fontSize="20" />
+		<screenText screenPos="1300,200" text="EGPK: 13-110.30 H125" color="255,20,147" font="Arial" fontSize="20" />
+		<screenText screenPos="1300,220" text="30-110.30 H305" color="255,20,147" font="Arial" fontSize="20" />
+		<screenText screenPos="100,620" text="Glagscow SID" font="Arial" fontSize="20" color="255,0,0" />
+		<screenText screenPos="270,560" text="Glagscow STAR" font="Arial" fontSize="20" color="255,0,0" />
+	</route>
+</routes>
