@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright © 2016 Alessandro Menti
+
+     This data is free software; you can redistribute it and/or modify it under
+     the terms of the GNU General Public License as published by the Free
+     Software Foundation; either version 2 of the License, or (at your option)
+     any later version.
+
+     This data is distributed in the hope that it will be useful, but WITHOUT
+     ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+     FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for
+     more details.
+
+     You should have received a copy of the GNU General Public License along
+     with this data; if not, see <http://www.gnu.org/licenses> or write to
+     the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+     Boston, MA 02110-1301 USA. -->
+<routes>
+    <addPoint code="ABDOX" point="53.2880278,-6.1546667" />
+    <addPoint code="ADNAL" point="53.6983333,-6.5950000" />
+    <addPoint code="ADSIS" point="53.6841667,-5.6594444" />
+    <addPoint code="AKIVA" point="53.6488889,-6.4527778" />
+    <addPoint code="APRUT" point="53.6969444,-6.7597222" />
+    <addPoint code="ARVOK" point="53.1552778,-6.0597222" />
+    <addPoint code="ASDER" point="53.5630556,-6.3738889" />
+    <addPoint code="BABON" point="53.2175000,-6.5155556" />
+    <addPoint code="BAMLI" point="54.1411111,-6.6511111" />
+    <addPoint code="BAPDA" point="53.6277778,-6.4011111" />
+    <addPoint code="BERMO" point="53.2941667,-6.4141667" />
+    <addPoint code="BIVDI" point="53.1830556,-6.6683333" />
+    <addPoint code="DETAX" point="53.2419444,-6.2100000" />
+    <addPoint code="DEXEN" point="53.2802778,-5.5000000" />
+    <addPoint code="DW551" point="53.4122222,-6.1086111" />
+    <addPoint code="DW554" point="53.4108333,-6.0811111" />
+    <addPoint code="DW555" point="53.3372222,-5.8955556" />
+    <addPoint code="DW754" point="53.2005556,-6.8286111" />
+    <addPoint code="DW755" point="53.2650000,-6.9511111" />
+    <addPoint code="DW865" point="53.6452778,-6.8994444" />
+    <addPoint code="DW866" point="53.5580556,-6.9741667" />
+    <addPoint code="DWN27" point="53.6266667,-6.6213889" />
+    <addPoint code="EKREN" point="53.6452778,-5.7647222" />
+    <addPoint code="ELBON" point="53.5927778,-6.1561111" />
+    <addPoint code="EPIDU" point="53.8175000,-6.5986111" />
+    <addPoint code="ERVAD" point="53.1130556,-6.0777778" />
+    <addPoint code="GANET" point="53.4350000,-6.5261111" />
+    <addPoint code="GIRAS" point="53.6391667,-5.9591667" />
+    <addPoint code="INKUR" point="53.5975000,-7.3913889" />
+    <addPoint code="IRDEX" point="53.1958333,-6.0638889" />
+    <addPoint code="KANUS" point="53.1086111,-6.4477778" />
+    <addPoint code="KEPOR" point="53.1713889,-6.3669444" />
+    <addPoint code="KERAV" point="53.6286111,-5.7658333" />
+    <addPoint code="LAPMO" point="53.4030556,-5.9455556" />
+    <addPoint code="LEMTA" point="53.7261111,-6.0533333" />
+    <addPoint code="MAXEV" point="53.4093056,-6.0548056" />
+    <addPoint code="NEKIL" point="53.5212778,-6.6732222" />
+    <addPoint code="ORVEN" point="53.6650000,-6.1916667" />
+    <addPoint code="OSLEX" point="53.3655000,-6.6956944" />
+    <addPoint code="OTNER" point="53.2875000,-6.3075000" />
+    <addPoint code="RISAP" point="53.4409444,-6.6370000" />
+    <addPoint code="RONON" point="53.7094444,-6.6052778" />
+    <addPoint code="RUBAR" point="53.1358333,-5.8013889" />
+    <addPoint code="SORIN" point="53.1413889,-5.8063889" />
+    <addPoint code="SUTEX" point="52.8244444,-6.9302778" />
+    <addPoint code="ULTAG" point="53.7002778,-6.7380556" />
+    <addPoint code="UMDAR" point="53.6341667,-6.5266667" />
+    <!-- FIXME Ground network -->
+    <!-- FIXME Restricted areas -->
+    <!-- SIDs, runway 10 CAT A-B -->
+    
+    <!-- SIDs, runway 10 CAT C-D -->
+    <route name="SID 10 to DODIG">
+        <activeStartRunways>10</activeStartRunways>
+        <include routeName="SID 10 to LEMTA" />
+        <line start="LEMTA" end="DODIG" text="316°" />
+    </route>
+    <route name="SID 10 to DW551">
+        <activeStartRunways>10</activeStartRunways>
+        <line start="EIDW-RW10" end="DW551" text="099°" />
+        <restriction position="DW551" notbelow="3000" />
+    </route>
+    <route name="SID 10 to DW554">
+        <activeStartRunways>10</activeStartRunways>
+        <line start="EIDW-RW10" end="DW554" text="099°" />
+        <restriction position="DW554" notbelow="3000" />
+    </route>
+    <route name="SID 10 to ERWAD">
+        <activeStartRunways>10</activeStartRunways>
+        <include routeName="SID 10 to DW554" />
+        <line start="DW554" end="IRDEX" text="189°" />
+        <line start="IRDEX" end="ERVAD" text="189°" />
+    </route>
+    <route name="SID 10 to LEMTA">
+        <activeStartRunways>10</activeStartRunways>
+        <include routeName="SID 10 to DW551" />
+        <line start="DW551" end="LEMTA" />
+    </route>
+    <route name="SID 10 to NEPOD">
+        <activeStartRunways>10</activeStartRunways>
+        <include routeName="SID 10 to ERVAD" />
+        <line start="ERVAD" end="NEPOD" text="203°" />
+    </route>
+    <route name="BEPAN 2E" displayMode="sid">
+        <activeStartRunways>10</activeStartRunways>
+        <navaids>DW554,IRDEX,ERVAD,NEPOD,BEPAN</navaids>
+        <include routeName="SID 10 to NEPOD" />
+        <line start="NEPOD" end="BEPAN" text="BEPAN 2E, 191°" arrows="end" />
+    </route>
+    <route name="DEXEN 2E" displayMode="sid">
+        <activeStartRunways>10</activeStartRunways>
+        <navaids>DW554,DW555,DEXEN</navaids>
+        <include routeName="SID 10 to DW554" />
+        <line start="DW554" end="DW555" />
+        <line start="DW555" end="DEXEN" text="DEXEN 2E, 107°" arrows="end" />
+        <restriction position="DEXEN" notbelow="FL120" />
+    </route>
+    <route name="INKUR 6E" displayMode="sid">
+        <activeStartRunways>10</activeStartRunways>
+        <navaids>DW551,LEMTA,DODIG,INKUR</navaids>
+        <include routeName="SID 10 to DODIG" />
+        <line start="DODIG" end="INKUR" text="INKUR 6E, 239°" arrows="end" />
+    </route>
+    <route name="LIFFY 2E" displayMode="sid">
+        <activeStartRunways>10</activeStartRunways>
+        <navaids>DW551,LIFFY</navaids>
+        <include routeName="SID 10 to DW551" />
+        <line start="DW551" end="LIFFY" text="LIFFY 2E" arrows="end" />
+    </route>
+    <route name="NEVRI 6E" displayMode="sid">
+        <activeStartRunways>10</activeStartRunways>
+        <navaids>DW551,LEMTA,NEVRI</navaids>
+        <include routeName="SID 10 to LEMTA" />
+        <line start="LEMTA" end="NEVRI" text="NEVRI 6E, 343°" arrows="end" />
+    </route>
+    <route name="OLONO 2E" displayMode="sid">
+        <activeStartRunways>10</activeStartRunways>
+        <navaids>DW554,IRDEX,ERVAD,NEPOD,OLONO</navaids>
+        <include routeName="SID 10 to NEPOD" />
+        <line start="NEPOD" end="OLONO" text="OLONO 2E, 242°" arrows="end" />
+    </route>
+    <route name="PESIT 2E" displayMode="sid">
+        <activeStartRunways>10</activeStartRunways>
+        <navaids>DW554,IRDEX,ERVAD,PESIT</navaids>
+        <include routeName="SID 10 to ERVAD" />
+        <line start="ERVAD" end="PESIT" text="PESIT 2E, 168°" arrows="end" />
+    </route>
+    <route name="ROTEV 6E" displayMode="sid">
+        <activeStartRunways>10</activeStartRunways>
+        <navaids>DW551,LEMTA,ROTEV</navaids>
+        <include routeName="SID 10 to LEMTA" />
+        <line start="LEMTA" end="ROTEV" text="ROTEV 6E, 343°" arrows="end" />
+    </route>
+    <route name="SUROX 6E" displayMode="sid">
+        <activeStartRunways>10</activeStartRunways>
+        <navaids>DW551,LEMTA,DODIG,SUROX</navaids>
+        <include routeName="SID 10 to DODIG" />
+        <line start="DODIG" end="SUROX" text="SUROX 6E, 280°" arrows="end" />
+    </route>
+    <!-- STARs, runway 10, 1 (AD 2.24-19.1) -->
+    <route name="STAR 10 ADNAL to NEKIL 1">
+        <activeLandingRunways>10</activeLandingRunways>
+        <loop navpoint="ADNAL" inboundHeading="304" length="5.4" right="true" minHeight="5000" maxHeight="FL140" arrows="both" />
+        <line start="ADNAL" end="APRUT" text="273°" />
+        <loop navpoint="APRUT" inboundHeading="273" length="5.4" right="true" minHeight="5000" maxHeight="FL140" stroke="dashed" arrows="both" />
+        <line start="APRUT" end="DW865" text="242°" />
+        <line start="DW865" end="DW866" text="211°" />
+        <line start="DW866" end="NEKIL" text="105°" arrows="end" />
+        <restriction position="ADNAL" notabove="FL80" notbelow="FL80" />
+        <restriction position="DW866" maxspeed="230" notabove="FL80" notbelow="FL80" />
+        <restriction position="NEKIL" notbelow="4000" />
+    </route>
+    <route name="STAR 10 BABON to OSLEX 1">
+        <activeLandingRunways>10</activeLandingRunways>
+        <loop navpoint="BABON" inboundHeading="222" length="5.4" right="false" minHeight="5000" maxHeight="FL140" arrows="both" />
+        <line start="BABON" end="BIVDI" text="253°" />
+        <line start="BIVDI" end="DW754" text="284°" />
+        <line start="DW754" end="DW755" text="315°" />
+        <line start="DW755" end="OSLEX" text="060°" arrows="end" />
+        <restriction position="BABON" notabove="FL70" notbelow="FL70" />
+        <restriction position="DW755" maxspeed="230" notabove="FL70" notbelow="FL70" />
+    </route>
+    <route name="STAR 10 DIRUM to OSLEX 1">
+        <activeLandingRunways>10</activeLandingRunways>
+        <line start="DIRUM" end="KANUS" text="054°" />
+        <line start="KANUS" end="BABON" text="343°" arrows="end" />
+        <restriction position="KANUS" maxspeed="230" />
+        <include routeName="STAR 10 BABON to OSLEX 1" />
+    </route>
+    <route name="STAR 10 EKREN to NEKIL 1">
+        <activeLandingRunways>10</activeLandingRunways>
+        <line start="EKREN" end="ELBON" text="261°" />
+        <line start="ELBON" end="ASDER" text="261°" />
+        <line start="ASDER" end="AKIVA" text="335°" />
+        <line start="AKIVA" end="ADNAL" text="304°" arrows="end" />
+        <restriction position="ASDER" maxspeed="230" notabove="FL80" notbelow="FL80" />
+        <include routeName="STAR 10 ADNAL to NEKIL 1" />
+    </route>
+    <route name="STAR 10 EPIDU to NEKIL 1">
+        <activeLandingRunways>10</activeLandingRunways>
+        <line start="EPIDU" end="ADNAL" text="183°" arrows="end" />
+        <restriction position="EPIDU" maxspeed="230" />
+        <include routeName="STAR 10 ADNAL to NEKIL 1" />
+    </route>
+    <route name="STAR 10 RUBAR to OSLEX 1">
+        <activeLandingRunways>10</activeLandingRunways>
+        <line start="RUBAR" end="DETAX" text="297°" />
+        <line start="DETAX" end="BERMO" text="297°" />
+        <line start="BERMO" end="BABON" text="222°" arrows="end" />
+        <restriction position="BERMO" maxspeed="230" notabove="FL70" notbelow="FL70" />
+        <include routeName="STAR 10 BABON to OSLEX 1" />
+    </route>
+    <route name="BAGSO 1R" displayMode="star">
+        <activeLandingRunways>10</activeLandingRunways>
+        <navaids>BAGSO,EKREN,ELBON,ASDER,AKIVA,ADNAL,APRUT,DW865,DW866,NEKIL</navaids>
+        <line start="BAGSO" end="EKREN" text="BAGSO 1R, 261°" arrows="end" />
+        <include routeName="STAR 10 EKREN to NEKIL 1" />
+    </route>
+    <route name="BAMLI 1R" displayMode="star">
+        <activeLandingRunways>10</activeLandingRunways>
+        <navaids>BAMLI,EPIDU,ADNAL,APRUT,DW865,DW866,NEKIL</navaids>
+        <line start="BAMLI" end="EPIDU" text="BAMLI 1R, 178°" arrows="end" />
+        <include routeName="STAR 10 EPIDU to NEKIL 1" />
+    </route>
+    <route name="BOYNE 1R" displayMode="star">
+        <activeLandingRunways>10</activeLandingRunways>
+        <navaids>BOYNE,EKREN,ELBON,ASDER,AKIVA,ADNAL,APRUT,DW865,DW866,NEKIL</navaids>
+        <line start="BOYNE" end="EKREN" text="BOYNE 1R, 236°" arrows="end" />
+        <include routeName="STAR 10 EKREN to NEKIL 1" />
+    </route>
+    <route name="BUNED 1R" displayMode="star">
+        <activeLandingRunways>10</activeLandingRunways>
+        <navaids>BUNED,DIRUM,KANUS,BABON,BIVDI,DW754,DW755,OSLEX</navaids>
+        <line start="BUNED" end="DIRUM" text="BUNED 1R, 001°" arrows="end" />
+        <include routeName="STAR 10 DIRUM to OSLEX 1" />
+        <restriction position="BUNED" notabove="FL200" />
+    </route>
+    <route name="LIPGO 1R" displayMode="star">
+        <activeLandingRunways>10</activeLandingRunways>
+        <navaids>LIPGO,RUBAR,DETAX,BERMO,BABON,BIVDI,DW754,DW755,OSLEX</navaids>
+        <line start="LIPGO" end="RUBAR" text="LIPGO 1R, 295°" arrows="end" />
+        <include routeName="STAR 10 RUBAR to OSLEX 1" />
+    </route>
+    <route name="NIMAT 1R" displayMode="star">
+        <activeLandingRunways>10</activeLandingRunways>
+        <navaids>NIMAT,EKREN,ELBON,ASDER,AKIVA,ADNAL,APRUT,DW865,DW866,NEKIL</navaids>
+        <line start="NIMAT" end="EKREN" text="NIMAT 1R, 186°" arrows="end" />
+        <include routeName="STAR 10 EKREN to NEKIL 1" />
+    </route>
+    <route name="OLAPO 1R" displayMode="star">
+        <activeLandingRunways>10</activeLandingRunways>
+        <navaids>OLAPO,EPIDU,ADNAL,APRUT,DW865,DW866,NEKIL</navaids>
+        <line start="OLAPO" end="EPIDU" text="OLAPO 1R, 088°" arrows="end" />
+        <restriction position="OLAPO" notabove="FL170" />
+        <include routeName="STAR 10 EPIDU to NEKIL 1" />
+    </route>
+    <route name="OSGAR 1R" displayMode="star">
+        <activeLandingRunways>10</activeLandingRunways>
+        <navaids>OSGAR,DIRUM,KANUS,BABON,BIVDI,DW754,DW755,OSLEX</navaids>
+        <line start="OSGAR" end="DIRUM" text="OSGAR 1R, 101°" arrows="end" />
+        <include routeName="STAR 10 DIRUM to OSLEX 1" />
+        <restriction position="OSGAR" notabove="FL200" />
+    </route>
+    <route name="SUTEX 1R" displayMode="star">
+        <activeLandingRunways>10</activeLandingRunways>
+        <navaids>SUTEX,DIRUM,KANUS,BABON,BIVDI,DW754,DW755,OSLEX</navaids>
+        <line start="SUTEX" end="DIRUM" text="SUTEX 1R, 046°" arrows="end" />
+        <include routeName="STAR 10 DIRUM to OSLEX 1" />
+        <restriction position="SUTEX" notabove="FL200" />
+    </route>
+    <route name="VATRY 1R" displayMode="star">
+        <activeLandingRunways>10</activeLandingRunways>
+        <navaids>VATRY,RUBAR,DETAX,BERMO,BABON,BIVDI,DW754,DW755,OSLEX</navaids>
+        <line start="VATRY" end="RUBAR" text="VATRY 1R, 346°" arrows="end" />
+        <include routeName="STAR 10 RUBAR to OSLEX 1" />
+    </route>
+    <!-- STARs, runway 10, 2 (AD 2.24-19.5) -->
+    <route name="STAR 10 ADNAL to NEKIL 2">
+        <activeLandingRunways>10</activeLandingRunways>
+        <loop navpoint="ADNAL" inboundHeading="304" length="5.4" right="true" minHeight="5000" maxHeight="FL140" arrows="both" />
+        <line start="ADNAL" end="APRUT" text="273°" />
+        <loop navpoint="APRUT" inboundHeading="273" length="5.4" right="true" minHeight="5000" maxHeight="FL140" stroke="dashed" arrows="both" />
+        <line start="APRUT" end="NEKIL" text="167°" arrows="end" />
+        <restriction position="ADNAL" notabove="FL80" notbelow="FL80" />
+        <restriction position="APRUT" maxspeed="230" notabove="FL80" notbelow="FL80" />
+        <restriction position="NEKIL" notbelow="4000" />
+    </route>
+    <route name="STAR 10 DIRUM to OSLEX 2">
+        <activeLandingRunways>10</activeLandingRunways>
+        <line start="DIRUM" end="KANUS" text="054°" />
+        <line start="KANUS" end="BABON" text="343°" arrows="end" />
+        <loop navpoint="BABON" inboundHeading="222" length="5.4" right="false" minHeight="5000" maxHeight="FL140" arrows="both" />
+        <line start="BABON" end="BIVDI" text="253°" />
+        <line start="BIVDI" end="OSLEX" text="358°" arrows="end" />
+        <restriction position="KANUS" maxspeed="230" />
+        <restriction position="BABON" maxspeed="230" notabove="FL70" notbelow="FL70" />
+        <restriction position="BIVDI" maxspeed="230" notabove="FL70" notbelow="FL70" />
+    </route>
+    <route name="STAR 10 EKREN to NEKIL 2">
+        <activeLandingRunways>10</activeLandingRunways>
+        <line start="EKREN" end="ELBON" text="261°" />
+        <line start="ELBON" end="ASDER" text="261°" />
+        <line start="ASDER" end="AKIVA" text="335°" />
+        <line start="AKIVA" end="NEKIL" text="229°" arrows="end" />
+        <restriction position="ASDER" maxspeed="230" notabove="FL80" notbelow="FL80" />
+        <restriction position="AKIVA" maxspeed="230" notabove="FL80" notbelow="FL80" />
+    </route>
+    <route name="STAR 10 EPIDU to NEKIL 2">
+        <activeLandingRunways>10</activeLandingRunways>
+        <line start="EPIDU" end="ADNAL" text="183°" arrows="end" />
+        <restriction position="EPIDU" maxspeed="230" />
+        <include routeName="STAR 10 ADNAL to NEKIL 2" />
+    </route>
+    <route name="STAR 10 RUBAR to OSLEX 2">
+        <activeLandingRunways>10</activeLandingRunways>
+        <line start="RUBAR" end="DETAX" text="297°" />
+        <line start="DETAX" end="BERMO" text="297°" />
+        <line start="BERMO" end="BABON" text="222°" />
+        <loop navpoint="BABON" inboundHeading="222" length="5.4" right="false" minHeight="5000" maxHeight="FL140" arrows="both" />
+        <line start="BABON" end="OSLEX" text="328°" arrows="end" />
+        <restriction position="BERMO" maxspeed="230" notabove="FL70" notbelow="FL70" />
+        <restriction position="BABON" maxspeed="230" notabove="FL70" notbelow="FL70" />
+    </route>
+    <route name="BAMLI 1Z" displayMode="star">
+        <activeLandingRunways>10</activeLandingRunways>
+        <navaids>BAMLI,EPIDU,ADNAL,APRUT,NEKIL</navaids>
+        <line start="BAMLI" end="EPIDU" text="BAMLI 1Z, 178°" arrows="end" />
+        <include routeName="STAR 10 EPIDU to NEKIL 2" />
+    </route>
+    <route name="BAGSO 1Z" displayMode="star">
+        <activeLandingRunways>10</activeLandingRunways>
+        <navaids>BAGSO,EKREN,ELBON,ASDER,AKIVA,NEKIL</navaids>
+        <line start="BAGSO" end="EKREN" text="BAGSO 1Z, 261°" arrows="end" />
+        <include routeName="STAR 10 EPIDU to NEKIL 2" />
+    </route>
+    <route name="BOYNE 1Z" displayMode="star">
+        <activeLandingRunways>10</activeLandingRunways>
+        <navaids>BOYNE,EKREN,ELBON,ASDER,AKIVA,NEKIL</navaids>
+        <line start="BOYNE" end="EKREN" text="BOYNE 1Z, 236°" arrows="end" />
+        <include routeName="STAR 10 EPIDU to NEKIL 2" />
+    </route>
+    <route name="BUNED 1Z" displayMode="star">
+        <activeLandingRunways>10</activeLandingRunways>
+        <navaids>BUNED,DIRUM,KANUS,BABON,BIVDI,OSLEX</navaids>
+        <line start="BUNED" end="DIRUM" text="BUNED 1Z, 001°" arrows="end" />
+        <include routeName="STAR 10 DIRUM to OSLEX 2" />
+        <restriction position="BUNED" notabove="FL200" />
+    </route>
+    <route name="LIPGO 1Z" displayMode="star">
+        <activeLandingRunways>10</activeLandingRunways>
+        <navaids>LIPGO,RUBAR,DETAX,BERMO,BABON,OSLEX</navaids>
+        <line start="LIPGO" end="RUBAR" text="LIPGO 1Z, 295°" arrows="end" />
+        <include routeName="STAR 10 RUBAR to OSLEX 2" />
+    </route>
+    <route name="NIMAT 1Z" displayMode="star">
+        <activeLandingRunways>10</activeLandingRunways>
+        <navaids>NIMAT,EKREN,ELBON,ASDER,AKIVA,NEKIL</navaids>
+        <line start="NIMAT" end="EKREN" text="NIMAT 1Z, 186°" arrows="end" />
+        <include routeName="STAR 10 EPIDU to NEKIL 2" />
+    </route>
+    <route name="OLAPO 1Z" displayMode="star">
+        <activeLandingRunways>10</activeLandingRunways>
+        <navaids>OLAPO,EPIDU,ADNAL,APRUT,NEKIL</navaids>
+        <line start="OLAPO" end="EPIDU" text="OLAPU 1Z, 088°" arrows="end" />
+        <restriction position="OLAPO" notabove="FL170" />
+        <include routeName="STAR 10 EPIDU to NEKIL 2" />
+    </route>
+    <route name="OSGAR 1Z" displayMode="star">
+        <activeLandingRunways>10</activeLandingRunways>
+        <navaids>OSGAR,DIRUM,KANUS,BABON,BIVDI,OSLEX</navaids>
+        <line start="OSGAR" end="DIRUM" text="OSGAR 1Z, 101°" arrows="end" />
+        <include routeName="STAR 10 DIRUM to OSLEX 2" />
+        <restriction position="OSGAR" notabove="FL200" />
+    </route>
+    <route name="SUTEX 1Z" displayMode="star">
+        <activeLandingRunways>10</activeLandingRunways>
+        <navaids>SUTEX,DIRUM,KANUS,BABON,BIVDI,OSLEX</navaids>
+        <line start="SUTEX" end="DIRUM" text="SUTEX 1Z, 046°" arrows="end" />
+        <include routeName="STAR 10 DIRUM to OSLEX 2" />
+        <restriction position="SUTEX" notabove="FL200" />
+    </route>
+    <route name="VATRY 1Z" displayMode="star">
+        <activeLandingRunways>10</activeLandingRunways>
+        <navaids>VATRY,RUBAR,DETAX,BERMO,BABON,OSLEX</navaids>
+        <line start="VATRY" end="RUBAR" text="VATRY 1Z, 346°" arrows="end" />
+        <include routeName="STAR 10 RUBAR to OSLEX 2" />
+    </route>
+    <!-- STARs, runway 16 -->
+    <route name="STAR 16 ADSIS to KERAV">
+        <activeLandingRunways>16</activeLandingRunways>
+        <line start="ADSIS" end="KERAV" text="233°" arrows="end" />
+    </route>
+    <route name="STAR 16 DIRUM to ULTAG">
+        <activeLandingRunways>16</activeLandingRunways>
+        <line start="DIRUM" end="KEPOR" text="050°" />
+        <line start="KEPOR" end="OTNER" text="021°" arrows="end" />
+        <include routeName="STAR 16 OTNER to ULTAG" />
+    </route>
+    <route name="STAR 16 OTNER to ULTAG">
+        <activeLandingRunways>16</activeLandingRunways>
+        <line start="OTNER" end="DWN27" text="335°" />
+        <line start="DWN27" end="ULTAG" text="321°" arrows="end" />
+        <restriction position="ULTAG" maxspeed="250" />
+    </route>
+    <route name="STAR 16 RUBAR to ULTAG">
+        <activeLandingRunways>16</activeLandingRunways>
+        <line start="RUBAR" end="OTNER" text="301°" arrows="end" />
+        <include routeName="STAR 16 OTNER to ULTAG" />
+    </route>
+    <route name="BAGSO 1K" displayMode="star">
+        <activeLandingRunways>16</activeLandingRunways>
+        <navaids>BAGSO,ADSIS,KERAV</navaids>
+        <line start="BAGSO" end="ADSIS" text="BAGSO 1K, 277°" arrows="end" />
+        <include routeName="STAR 16 ADSIS to KERAV" />
+    </route>
+    <route name="BOYNE 1K" displayMode="star">
+        <activeLandingRunways>16</activeLandingRunways>
+        <navaids>BOYNE,ADSIS,KERAV</navaids>
+        <line start="BOYNE" end="ADSIS" text="BOYNE 1K, 233°" arrows="end" />
+        <include routeName="STAR 16 ADSIS to KERAV" />
+    </route>
+    <route name="BUNED 4U" displayMode="star">
+        <activeLandingRunways>16</activeLandingRunways>
+        <navaids>BUNED,DIRUM,KEPOR,OTNER,DWN27,ULTAG</navaids>
+        <line start="BUNED" end="DIRUM" text="BUNED 4U, 001°" arrows="end" />
+        <include routeName="STAR 16 DIRUM to ULTAG" />
+    </route>
+    <route name="LIPGO 1U" displayMode="star">
+        <activeLandingRunways>16</activeLandingRunways>
+        <navaids>LIPGO,RUBAR,OTNER,DWN27,ULTAG</navaids>
+        <line start="LIPGO" end="RUBAR" text="LIPGO 1U, 296°" arrows="end" />
+        <include routeName="STAR 16 RUBAR to ULTAG" />
+    </route>
+    <route name="NIMAT 1K" displayMode="star">
+        <activeLandingRunways>16</activeLandingRunways>
+        <navaids>NIMAT,KERAV</navaids>
+        <line start="NIMAT" end="KERAV" text="NIMAT 1K, 187°" arrows="end" />
+    </route>
+    <route name="OLAPO 4U" displayMode="star">
+        <activeLandingRunways>16</activeLandingRunways>
+        <navaids>OLAPO,ULTAG</navaids>
+        <line start="OLAPO" end="ULTAG" text="OLAPO 4U, 108°" arrows="end" />
+        <restriction position="OLAPO" maxspeed="150" />
+    </route>
+    <route name="OSGAR 4U" displayMode="star">
+        <activeLandingRunways>16</activeLandingRunways>
+        <navaids>OSGAR,DIRUM,KEPOR,OTNER,DWN27,ULTAG</navaids>
+        <line start="OSGAR" end="DIRUM" text="OSGAR 4U, 101°" arrows="end" />
+        <include routeName="STAR 16 DIRUM to ULTAG" />
+    </route>
+    <route name="SUTEX 4U" displayMode="star">
+        <activeLandingRunways>16</activeLandingRunways>
+        <navaids>SUTEX,DIRUM,KEPOR,OTNER,DWN27,ULTAG</navaids>
+        <line start="SUTEX" end="DIRUM" text="SUTEX 4U, 046°" arrows="end" />
+        <include routeName="STAR 16 DIRUM to ULTAG" />
+    </route>
+    <route name="VATRY 1U" displayMode="star">
+        <activeLandingRunways>16</activeLandingRunways>
+        <navaids>VATRY,RUBAR,OTNER,DWN27,ULTAG</navaids>
+        <line start="VATRY" end="RUBAR" text="VATRY 1U, 347°" arrows="end" />
+        <include routeName="STAR 16 RUBAR to ULTAG" />
+    </route>
+    <!-- STARs, runway 34 -->
+    <route name="STAR 34 ADSIS to KERAV">
+        <activeLandingRunways>34</activeLandingRunways>
+        <line start="ADSIS" end="KERAV" text="233°" arrows="end" />
+    </route>
+    <route name="STAR 34 DIRUM to SORIN">
+        <activeLandingRunways>34</activeLandingRunways>
+        <line start="DIRUM" end="KEPOR" text="050°" />
+        <line start="KEPOR" end="ARVOK" text="099°" />
+        <line start="ARVOK" end="SORIN" text="099°" arrows="end" />
+        <restriction position="KEPOR" maxspeed="250" />
+    </route>
+    <route name="STAR 34 RONON to KERAV">
+        <activeLandingRunways>34</activeLandingRunways>
+        <line start="RONON" end="ORVEN" text="104°" />
+        <line start="ORVEN" end="GIRAS" text="105°" />
+        <line start="GIRAS" end="KERAV" text="099°" arrows="end" />
+        <restriction position="ORVEN" maxspeed="250" />
+    </route>
+    <route name="BAGSO 1K" displayMode="star">
+        <activeLandingRunways>34</activeLandingRunways>
+        <navaids>BAGSO,ADSIS,KERAV</navaids>
+        <line start="BAGSO" end="ADSIS" text="BAGSO 1K, 277°" arrows="end" />
+        <include routeName="STAR 34 ADSIS to KERAV" />
+    </route>
+    <route name="BAMLI 1K" displayMode="star">
+        <activeLandingRunways>34</activeLandingRunways>
+        <navaids>BAMLI,RONON,ORVEN,GIRAS,KERAV</navaids>
+        <line start="BAMLI" end="RONON" text="BAMLI 1K, 181°" arrows="end" />
+        <include routeName="STAR 34 RONON to KERAV" />
+    </route>
+    <route name="BOYNE 1K" displayMode="star">
+        <activeLandingRunways>34</activeLandingRunways>
+        <navaids>BOYNE,ADSIS,KERAV</navaids>
+        <line start="BOYNE" end="ADSIS" text="BOYNE 1K, 233°" arrows="end" />
+        <include routeName="STAR 34 ADSIS to KERAV" />
+    </route>
+    <route name="BUNED 1S" displayMode="star">
+        <activeLandingRunways>34</activeLandingRunways>
+        <navaids>BUNED,DIRUM,KEPOR,ARVOK,SORIN</navaids>
+        <line start="BUNED" end="DIRUM" text="BUNED 1S, 001°" arrows="end" />
+        <include routeName="STAR 34 DIRUM to SORIN" />
+    </route>
+    <route name="LIPGO 1S" displayMode="star">
+        <activeLandingRunways>34</activeLandingRunways>
+        <navaids>LIPGO,SORIN</navaids>
+        <line start="LIPGO" end="SORIN" text="LIPGO 1S, 297°" arrows="end" />
+    </route>
+    <route name="NIMAT 1K" displayMode="star">
+        <activeLandingRunways>34</activeLandingRunways>
+        <navaids>NIMAT,KERAV</navaids>
+        <line start="NIMAT" end="KERAV" text="NIMAT 1K, 187°" arrows="end" />
+    </route>
+    <route name="OLAPO 1K" displayMode="star">
+        <activeLandingRunways>34</activeLandingRunways>
+        <navaids>OLAPO,RONON,ORVEN,GIRAS,KERAV</navaids>
+        <line start="OLAPO" end="RONON" text="OLAPO 1K, 104°" arrows="end" />
+        <include routeName="STAR 34 RONON to KERAV" />
+    </route>
+    <route name="OSGAR 1S" displayMode="star">
+        <activeLandingRunways>34</activeLandingRunways>
+        <navaids>OSGAR,DIRUM,KEPOR,ARVOK,SORIN</navaids>
+        <line start="OSGAR" end="DIRUM" text="OSGAR 1S, 101°" arrows="end" />
+        <include routeName="STAR 34 DIRUM to SORIN" />
+    </route>
+    <route name="SUTEX 1S" displayMode="star">
+        <activeLandingRunways>34</activeLandingRunways>
+        <navaids>SUTEX,DIRUM,KEPOR,ARVOK,SORIN</navaids>
+        <line start="SUTEX" end="DIRUM" text="SUTEX 1S, 046°" arrows="end" />
+        <include routeName="STAR 34 DIRUM to SORIN" />
+    </route>
+    <route name="VATRY 1S" displayMode="star">
+        <activeLandingRunways>34</activeLandingRunways>
+        <navaids>VATRY,SORIN</navaids>
+        <line start="VATRY" end="SORIN" text="VATRY 1S, 347°" arrows="end" />
+    </route>
+    <!-- Approach procedures -->
+    <route name="Approach runway 10" color="255,242,0">
+        <activeLandingRunways>10</activeLandingRunways>
+        <navaids>NEKIL,RISAP,OSLEX,GANET,LAPMO,DUB</navaids>
+        <line start="NEKIL" end="RISAP" text="168°" arrows="end" />
+        <line start="OSLEX" end="RISAP" text="028°" arrows="end" />
+        <loop navpoint="RISAP" inboundHeading="099" length="4.4" right="false" minHeight="3000" arrows="both" />
+        <line start="RISAP" end="GANET" />
+        <line start="GANET" end="EIDW-RW28" text="099°" arrows="end" />
+        <line start="EIDW-RW10" end="LAPMO" text="099°" color="255,128,128" stroke="dashed" />
+        <intercept startTurn="LAPMO" startHeading="099" radius="2" direction="left" endHeading="279" end="DUB" text="279°" color="255,128,128" stroke="dashed" />
+        <line start="DUB" end="RISAP" text="257°" color="255,128,128" stroke="dashed" arrows="end" />
+        <restriction position="NEKIL" maxspeed="230" notbelow="4000ft" />
+        <restriction position="RISAP" maxspeed="210" notbelow="3000ft" />
+        <restriction position="OSLEX" maxspeed="230" notbelow="5000ft" />
+        <restriction position="GANET" notabove="3000ft" notbelow="3000ft" />
+    </route>
+    <route name="Approach runway 16" color="255,242,0">
+        <activeLandingRunways>16</activeLandingRunways>
+        <navaids>ULTAG,UMDAR,BAPDA,KERAV,ERUDA</navaids>
+        <loop navpoint="ULTAG" inboundHeading="141" length="5.0" right="false" minHeight="5000" arrows="both" />
+        <line start="ULTAG" end="UMDAR" text="ULTAG 1T, 122°" />
+        <line start="UMDAR" end="BAPDA" text="099°" arrows="end" />
+        <loop navpoint="KERAV" inboundHeading="210" length="5.4" right="true" minHeight="5000" arrows="both" />
+        <line start="KERAV" end="ERUDA" text="KERAV 1T, 283°" />
+        <line start="ERUDA" end="BAPDA" text="241°" arrows="end" />
+        <line start="BAPDA" end="53.5702222,-6.3589167" />
+        <line start="53.5702222,-6.3589167" end="EIDW-RW34" text="161°" arrows="end" />
+        <line start="EIDW-RW16" end="53.3305467,-6.1828250" text="161°" color="255,128,128" stroke="dashed" arrows="end" />
+        <restriction position="ULTAG" maxspeed="220" notbelow="6000ft" />
+        <restriction position="BAPDA" maxspeed="180" notbelow="3000ft" />
+        <restriction position="KERAV" maxspeed="230" notbelow="6000ft" />
+        <restriction position="53.5702222,-6.3589167" notabove="3000ft" notbelow="3000ft" />
+    </route>
+    <route name="Approach runway 28" color="255,242,0">
+        <activeLandingRunways>28</activeLandingRunways>
+        <navaids>LAPMO,MAXEV,RISAP,DUB</navaids>
+        <loop navpoint="LAPMO" inboundHeading="279" length="4.4" right="false" minHeight="3000" arrows="both" />
+        <line start="LAPMO" end="MAXEV" />
+        <line start="MAXEV" end="EIDW-RW10" text="279°" arrows="end" />
+        <line start="EIDW-RW28" end="RISAP" text="279°" color="255,128,128" stroke="dashed" />
+        <intercept startTurn="RISAP" startHeading="279" radius="2" direction="right" endHeading="099" end="DUB" text="099°" color="255,128,128" stroke="dashed" />
+        <line start="DUB" end="LAPMO" text="117°" color="255,128,128" stroke="dashed" arrows="end" />
+        <restriction position="LAPMO" maxspeed="180" notbelow="3000ft" />
+        <restriction position="MAXEV" notabove="2500ft" notbelow="2500ft" />
+    </route>
+    <route name="Approach runway 34" color="255,242,0">
+        <activeLandingRunways>34</activeLandingRunways>
+        <navaids>KERAV,AMDIL,INTOP,SORIN,ABDOX,BAPDA,DAP</navaids>
+        <loop navpoint="KERAV" inboundHeading="209" length="5.4" right="true" minHeight="5000" maxHeight="FL140" arrows="both" />
+        <line start="KERAV" end="AMDIL" text="KERAV APPTRN, 203°" />
+        <line start="AMDIL" end="INTOP" text="250°" arrows="end" />
+        <loop navpoint="SORIN" inboundHeading="346" length="5.4" right="false" minHeight="5000" maxHeight="FL140" arrows="both" />
+        <line start="SORIN" end="INTOP" text="SORIN APPTRN, 298°" arrows="end" />
+        <line start="INTOP" end="ABDOX" />
+        <line start="ABDOX" end="EIDW-RW16" text="340°" arrows="end" />
+        <line start="EIDW-RW34" end="BAPDA" text="340°" color="255,128,128" stroke="dashed" />
+        <intercept startTurn="BAPDA" startHeading="340" radius="2" direction="left" endHeading="150" end="DAP" text="150°" color="255,128,128" stroke="dashed" />
+        <line start="DAP" end="SORIN" text="137°" color="255,128,128" stroke="dashed" arrows="end" />
+        <restriction position="KERAV" maxspeed="230" notbelow="6000ft" />
+        <restriction position="INTOP" maxspeed="180" notbelow="3000ft" />
+        <restriction position="SORIN" maxspeed="230" notbelow="6000ft" />
+        <restriction position="ABDOX" maxspeed="160" notabove="3000ft" notbelow="3000ft" />
+        <restriction position="BAPDA" notabove="3000ft" color="255,128,128" />
+    </route>
+</routes>
